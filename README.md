@@ -150,7 +150,7 @@ verge-cli --server=10.0.0.100 --user=admin --post=@new_vm.json /v4/vms
 ```bash
 verge-cli --server=10.0.0.100 --user=admin \
   --put='{"description":"Updated description for web server"}' \
-  /v4/vms/your-vm-uuid
+  /v4/vms/your-vm-id
 ```
 
 ### 4. Upload an ISO Image with Custom Threads and Name
