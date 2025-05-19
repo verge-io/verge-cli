@@ -1,0 +1,37 @@
+# .goreleaser.yml
+# Minimal GoReleaser config for verge-cli
+
+project_name: verge-cli
+
+builds:
+  - id: verge-cli
+    main: ./verge-cli.go
+    binary: verge-cli
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+
+archives:
+  - id: default
+    format: tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    files:
+      - LICENSE
+      - README.md
+
+checksum:
+  name_template: "checksums.txt"
+
+release:
+  github:
+    owner: ""
+    name: ""
+  draft: false
+  prerelease: auto
+
+changelog:
+  use: github

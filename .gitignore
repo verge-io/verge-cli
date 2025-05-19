@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.cov
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go workspace file
+go.work
+
+# Build directories
+bin/
+build/
+dist/
+
+# Vendor directory (if you use 'go mod vendor')
+vendor/
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Release artifacts
+*.tar.gz
+*.zip
+
+# Local binaries
+verge-cli
+verge-cli-linux
+verge-cli.exe
+
+# Shell scripts (optional, if not tracked)
+# verge-cli.sh
+
+# Goreleaser config output (optional, if generated)
+# .goreleaser.yml
