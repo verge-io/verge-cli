@@ -1,8 +1,6 @@
 # Verge CLI (`verge-cli`)
 
-**Successor to `api-helper.sh`**
-
-`verge-cli` is a modern, cross-platform command-line interface (CLI) tool designed for seamless interaction with the VergeOS API. It replaces the legacy `api-helper.sh` script, offering enhanced features, improved usability, and robust performance.
+`verge-cli` is a modern, cross-platform command-line interface (CLI) tool designed for seamless interaction with the VergeOS API.
 
 ## Features
 
@@ -12,7 +10,6 @@
 -   **Efficient File Handling**: Features fast, parallel file uploading with progress indicators.
 -   **Powerful Data Queries**: Extensive support for query parameters including field selection, filtering, sorting, and pagination (limit/offset).
 -   **Advanced Customization**: Allows specification of custom headers and advanced query string parameters.
--   **Enhanced Security**: Includes secure password input and promotes token-based authentication.
 -   **TLS Configuration**: Supports skipping TLS verification (for testing) and using custom CA certificates.
 
 ## Installation & Configuration
