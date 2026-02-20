@@ -1,3 +1,14 @@
+> **This project has been deprecated and replaced by [`vrg`](https://github.com/verge-io/vrg).**
+>
+> `vrg` is a complete rewrite with 200+ commands, declarative VM templates, shell completion, and flexible output formats. Install it with:
+>
+> ```bash
+> brew install verge-io/tap/vrg   # Homebrew
+> pipx install vrg                 # pipx
+> pip install vrg                  # pip
+> ```
+
+---
 # Verge CLI (`verge-cli`)
 
 `verge-cli` is a modern, cross-platform command-line interface (CLI) tool designed for seamless interaction with the VergeOS API.
